@@ -1,0 +1,34 @@
+.loading {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading > h1 {
+  font-size: 60px;
+}
+
+.carousel {
+  margin-top: 5%;
+}
+
+.captions {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+}
+
+.carousel-image {
+  height: 90vh;
+  object-fit: cover;
+}
+
+.catagories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 0px 30px;
+  gap: 30px;
+  margin-top: 30px;
+  margin: 2%;
+}

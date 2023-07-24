@@ -1,0 +1,10 @@
+.app {
+  background-color: white;
+  /* opacity: 0.8; */
+  background-image: linear-gradient(135deg, #444df70a 25%, transparent 25%), linear-gradient(225deg, #444df70a 25%, transparent 25%), linear-gradient(45deg, #444df70a 25%, transparent 25%), linear-gradient(315deg, #444df70a 25%, #e7e7e70a 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  background-repeat: repeat;
+}
+
+

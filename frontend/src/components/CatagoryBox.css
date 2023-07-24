@@ -1,0 +1,36 @@
+.catagoryBox {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.catagoryBox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.catagoryBox > h1 {
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+
+.catagoryBox:hover > .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
